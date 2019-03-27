@@ -20,6 +20,11 @@ body {
   margin-bottom: 2px;
 }
 
+.main-nav {
+  margin: auto;
+  padding: inherit;
+}
+
 .main-nav a {
   background-color: #FFF;
   width: 100%;
@@ -32,6 +37,7 @@ body {
 .main-nav a:hover {
   background-color: black;
   color: white;
+  border-bottom: solid 2px red;
 }
 
 ul, h2, a, .return {
@@ -98,6 +104,8 @@ p {
 .main-footer {
   width: 90%;
   margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-nav {
@@ -155,9 +163,9 @@ p {
   .intro-text {
     float: left;
     width: 48%;
-    text-align: center;
-    padding: 2% 0% 5% 4%;
-    margin-top: 20px;
+    text-align: left;
+    padding: 0 0 5% 4%;
+    margin-top: 0;
   }
 
   .main-content {
@@ -199,6 +207,56 @@ p {
 
 @media (min-width: 1024px) {
 
+  .main-header {
+    width: 90%;
+    margin: auto;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  .name {
+    float: left;
+    padding: 8px 0px 24px;
+    margin: 0;
+  }
+
+  .main-nav {
+    float: right;
+    padding: 8px 0px 24px;
+    margin: 0;
+  }
+
+  .profile-intro {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .profile-pic {
+    float: right;
+    width: 40%;
+    padding-right: 0%;
+  }
+
+  .intro-text {
+    float: left;
+    width: 55%;
+    padding-top: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .main-content {
+    width: 95%;
+    margin: auto;
+  }
+
+  .col {
+    float: left;
+    width: 33%;
+    padding: 1%;
+  }
 
 }
 
